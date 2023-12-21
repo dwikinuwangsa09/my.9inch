@@ -1,13 +1,13 @@
 <?php
 
-require_once '../vendor/autoload.php';
+require_once 'vendor/autoload.php';
 
 session_start();
 
 // init configuration
 $clientID = '1089634697014-qn74nthln8ev5fbfb33o7223kqv33s69.apps.googleusercontent.com';
 $clientSecret = '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';
-$redirectUri = 'https://my.9inch.broadcast/dashboard.php';
+$redirectUri = 'https://my.9inch.studio/dashboard.php';
 
 // create Client Request to access Google API
 $client = new Google_Client();
