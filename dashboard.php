@@ -146,12 +146,7 @@
                                                         <div class="table-responsive">
                                                             <table class="table table--default">
                                                                 <thead>
-                                                                <?php
-													include "config/koneksi.php";
-													$no = 1;
-													$query = mysqli_query($db, 'SELECT * FROM worksheet LIMIT 5');
-													while ($data = mysqli_fetch_array($query)) {
-													?>
+                                                               
                                                                     <tr>
                                                                         <th>Project Owner</th>
                                                                         <th>Project Name</th>
@@ -162,6 +157,12 @@
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
+                                                                <?php
+													include "config/koneksi.php";
+													$no = 1;
+													$query = mysqli_query($db, 'SELECT * FROM worksheet LIMIT 5');
+													while ($data = mysqli_fetch_array($query)) {
+													?>
                                                                     <tr>
                                                                         <td>
                                                                             <div class="selling-product-img d-flex align-items-center">
