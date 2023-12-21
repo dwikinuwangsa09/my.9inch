@@ -9,6 +9,6 @@ $query="DELETE from crew where nim='$nim'";
 mysqli_query($db, $query);
 
 // mengalihkan halaman kembali ke verifikasi.php
-header("location:../crewmanage.php?pesan=berhasilhapus");
+header("location:../crew.php?pesan=berhasilhapus");
  
 ?>
