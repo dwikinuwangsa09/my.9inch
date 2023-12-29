@@ -22,7 +22,7 @@ $data = array(
 $payload = json_encode($data);
  
 // Prepare new cURL resource
-$ch = curl_init('http://apiwa.kinume.codes/send-message');
+$ch = curl_init('http://backend.9inch.studio:8000/send-message');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLINFO_HEADER_OUT, true);
 curl_setopt($ch, CURLOPT_POST, true);
