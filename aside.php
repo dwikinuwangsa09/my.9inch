@@ -197,6 +197,12 @@ function showSidebar() {
                                 <span class="menu-text">Dashboard</span>
                             </a>
                         </li>
+                        <li>
+                            <a href="form_program.php" class="">
+                                <span data-feather="file" class="nav-icon"></span>
+                                <span class="menu-text">Form Program</span>
+                            </a>
+                        </li>
                         <?php if ($role === 'TOP' || $role === 'Coordinator') : ?>
                                     <!-- Tampilkan hanya untuk admin dan user -->
                         <li>
