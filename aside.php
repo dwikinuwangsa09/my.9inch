@@ -204,7 +204,7 @@ function showSidebar() {
                             </a>
                         </li>
                         <?php if ($role === 'TOP' || $role === 'Coordinator') : ?>
-                                    <!-- Tampilkan hanya untuk admin dan user -->
+                                    <!-- Tampilkan hanya untuk admin -->
                         <li>
                             <a href="worksheet.php" class="">
                                 <span data-feather="file-text" class="nav-icon"></span>
@@ -215,6 +215,12 @@ function showSidebar() {
                             <a href="crew.php" class="">
                                 <span data-feather="users" class="nav-icon"></span>
                                 <span class="menu-text">Crew Management</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="user.php" class="">
+                                <span data-feather="users" class="nav-icon"></span>
+                                <span class="menu-text">User Manager</span>
                             </a>
                         </li>
                         <?php endif; ?>
